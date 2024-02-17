@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b640ad98feb166b43b3d1a95d40ab74b, type: 3}
+  m_Name: Achievement_Test
+  m_EditorClassIdentifier: 
+  category: {fileID: 0}
+  icon: {fileID: 0}
+  codeName: aaa
+  displayName: AAA
+  description: aaaaa
+  taskGroups:
+  - tasks:
+    - {fileID: 11400000, guid: 1a041a238ce3842469b09ea71116fc8e, type: 2}
+  rewards: []
+  useAutoComplete: 1
+  isCancelable: 0
+  isSavable: 1
+  acceptionConditions: []
+  cancelConditions: []
