@@ -7,6 +7,8 @@ public class QuestTargetMarker : MonoBehaviour
 {
     [SerializeField]
     private TaskTarget target;
+    [SerializeField]
+    private MarkerMaterialData[] markerMaterialDatas;
 
     private Dictionary<Quest, Task> targetTasksByQuest = new Dictionary<Quest, Task>();
     private Transform cameraTransform;
@@ -19,5 +21,18 @@ public class QuestTargetMarker : MonoBehaviour
     {
         public Category category;
         public Material markerMaterial;
+    }
+
+    private void UpdateRunningTargetTaskCount(Task task, TaskState currentState, TaskState prevState)
+    {
+        if (currentState == TaskState.Running)
+        {
+            renderer.material = markerMaterialDatas.First(x => x.category == task.Category).markerMaterial;
+            currentRunningTargetTaskCount++;
+        }
+        else
+            currentRunningTargetTaskCount--;
+
+        gameObject.SetActive(currentRunningTargetTaskCount != 0);
     }
 }
