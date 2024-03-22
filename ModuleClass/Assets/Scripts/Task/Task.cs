@@ -66,7 +66,7 @@ public class Task : ScriptableObject
 
     public Category Category => category;
     public string CodeName => codeName;
-    private string Description => description;
+    public string Description => description;
     public int NeedSuccessToComplete => needSuccessToComplete;
     public TaskState State
     {
@@ -114,4 +114,6 @@ public class Task : ScriptableObject
         => Category == category && 
         targets.Any(x => x.IsEqual(target)) &&
         (!IsComplete || (IsComplete && canReceiveReportsDuringCompletion));
+
+    public bool ContainsTarget(object target) => targets.Any(x => x.IsEqual(target));
 }
