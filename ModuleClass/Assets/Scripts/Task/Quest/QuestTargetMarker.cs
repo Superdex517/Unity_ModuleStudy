@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+//TODO : restart 누르면 quest 초기화 되는 부분
 public class QuestTargetMarker : MonoBehaviour
 {
     [SerializeField]

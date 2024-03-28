@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: 0838745e6c61b3649b24dc57d0a10695, type: 2}
-  target: {fileID: 11400000, guid: f96cc3ecd3d2167439cd3d88b851816f, type: 2}
+  target: {fileID: 11400000, guid: af8610e23b5489f449e05ad99526e793, type: 2}
   successCount: 1
   colliderTags: []
 --- !u!1001 &2040880330641630406

@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 7013187567943023504}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.132746, y: -4.457178, z: 30.572636}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102,5 +102,5 @@ MonoBehaviour:
     markerMaterial: {fileID: 2100000, guid: cc051921fdcea044dba213e95e8f860f, type: 2}
   - category: {fileID: 11400000, guid: b46b45d5a7ef07746aa5e29bb57d5fbf, type: 2}
     markerMaterial: {fileID: 2100000, guid: ff764628158151a4d815d8f022e3ac3a, type: 2}
-  - category: {fileID: 11400000, guid: 628c6dff0b960044da039a4e8aed03b9, type: 2}
+  - category: {fileID: 11400000, guid: e1b8b3bac45916d40a8041fc543c5c96, type: 2}
     markerMaterial: {fileID: 2100000, guid: 5c50393d4407669459c2522e430010a6, type: 2}

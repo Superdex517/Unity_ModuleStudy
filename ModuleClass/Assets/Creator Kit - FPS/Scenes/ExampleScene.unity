@@ -8904,6 +8904,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quests:
   - {fileID: 11400000, guid: 8582e8b8dc68a49469a17fbebac916b9, type: 2}
+  - {fileID: 11400000, guid: d9e39fd5ff406ab4f8b773c81df63ff7, type: 2}
+  - {fileID: 11400000, guid: 6c0bbfdfba582b04db6f5cb086ae0e49, type: 2}
+  - {fileID: 11400000, guid: f1902163b712bf94fbd37ec75eaa029d, type: 2}
 --- !u!1001 &2062638404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9291,10 +9294,10 @@ SceneRoots:
   - {fileID: 39335345}
   - {fileID: 1410709165}
   - {fileID: 670547380}
+  - {fileID: 4140257917702502561}
+  - {fileID: 1473291811}
+  - {fileID: 2126337465}
   - {fileID: 1293402504}
   - {fileID: 815908054}
   - {fileID: 2037822751}
   - {fileID: 1678250177}
-  - {fileID: 4140257917702502561}
-  - {fileID: 1473291811}
-  - {fileID: 2126337465}
