@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: AchievementDatabase
   m_EditorClassIdentifier: 
   quests:
-  - {fileID: 11400000, guid: fb797d200f9989c4caf069143b831ed0, type: 2}
+  - {fileID: 11400000, guid: 25ca80f58bf76be41955e16e1ff6b073, type: 2}
